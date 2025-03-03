@@ -1,0 +1,16 @@
+{% extends "base.html" %} {% block content %}
+<h1>Textbooks for Course Code: {{ course_code }}</h1>
+{% if textbooks %}
+<ul>
+  {% for textbook in textbooks %}
+  <li>
+    <strong>Title:</strong> {{ textbook.title }}<br />
+    <strong>Author:</strong> {{ textbook.author }}<br />
+    <strong>Edition:</strong> {{ textbook.edition }}<br />
+    <strong>Condition:</strong> {{ textbook.condition }}<br />
+  </li>
+  {% endfor %}
+</ul>
+{% else %}
+<p>No textbooks available for this course code. Please check back later!</p>
+{% endif %} {% endblock content %}

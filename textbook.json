@@ -1,0 +1,54 @@
+[
+    {
+        "model": "listtextbook.textbook",
+        "pk": 1,
+        "fields": {
+            "title": "Software Engineering: A Practitioner's Approach",
+            "year": 2021,
+            "edition": "9th",
+            "author": "Roger S. Pressman",
+            "course_code": "COEN6311",
+            "availability": true,
+            "condition": "new"
+        }
+    },
+    {
+        "model": "listtextbook.textbook",
+        "pk": 2,
+        "fields": {
+            "title": "Software Architecture in Practice",
+            "year": 2020,
+            "edition": "4th",
+            "author": "Len Bass, Paul Clements, Rick Kazman",
+            "course_code": "COEN6311",
+            "availability": true,
+            "condition": "old"
+        }
+    },
+    {
+        "model": "listtextbook.textbook",
+        "pk": 3,
+        "fields": {
+            "title": "Robotics, Vision and Control",
+            "year": 2018,
+            "edition": "2nd",
+            "author": "Peter Corke",
+            "course_code": "COEN691",
+            "availability": false,
+            "condition": "new"
+        }
+    },
+    {
+        "model": "listtextbook.textbook",
+        "pk": 4,
+        "fields": {
+            "title": "Introduction to Autonomous Robots",
+            "year": 2019,
+            "edition": "3rd",
+            "author": "Nikolaus Correll, Bradley Hayes, Bradley M. Knoll",
+            "course_code": "COEN691",
+            "availability": true,
+            "condition": "old"
+        }
+    }
+]
